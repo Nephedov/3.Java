@@ -1,17 +1,17 @@
 public class Main {
-    public static void main (String [] args) {
+    public static void main(String[] args) {
 
-        int x = 100;
-        int y = 100;
-        int z;
+        int account = 100;
+        int replenishment = 100;
+        int bonus;
 
-        if (y > 1000) {
-            z = y / 100;
+        if (replenishment > 1000) {
+            bonus = replenishment / 100;
         } else {
-            z = 0;
+            bonus = 0;
         }
 
-        System.out.println(x + y +z);
+        System.out.println(account + replenishment + bonus);
 
     }
 }
